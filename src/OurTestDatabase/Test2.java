@@ -53,6 +53,7 @@ public class Test2 {
 			
 			Integer m = st.executeUpdate(tableCreationHolder);
 			if (m >= 1) {
+			
 				System.out.println("inserted successfully : " + tableCreationHolder);
 			} else {
 				System.out.println("insertion failed");
